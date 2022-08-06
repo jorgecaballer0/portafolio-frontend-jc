@@ -1,7 +1,7 @@
 # 🖥️ Portafolio Web - Jorge Caballero 🖥️
 
 ## 📚 Preview
-![preview](./src/assets/img/preview.jpg)
+![preview](./src/)
 
 ## 📚 Descripción del proyecto
 - Portafolio web personal, ***responsive design*** desarrollado con ***React JS***, ***Tailwind Css*** y ***Framer Motion***.
