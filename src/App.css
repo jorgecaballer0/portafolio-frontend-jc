@@ -1,38 +1,166 @@
-.App {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color-bg: hsl(240, 29%, 17%);
+  --color-bg-variant: hsl(219, 32%, 12%);
+  --color-bg-variant-hover: rgb(35, 35, 35);
+  --color-primary: hsl(181, 95%, 30%);
+  --color-primary-variant: hsl(181, 95%, 26%);
+  --color-white: #fff;
+  --text-color: hsl(217, 6%, 75%);
+  --text-color-light: hsl(210, 13%, 88%);
+  ;
+  --color-light: hsla(0, 0%, 100%, 0.6);
+
+  --transition: all .4s ease;
+
+  --container-width-lg: 55%;
+  --container-width-md: 85%;
+  --container-width-sm: 90%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-bg);
+  color: var(--text-color);
+  line-height: 1.7;
+  background-image: url(../src/assets/img/Bg-Logo/bg-texture.png);
+}
+
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section>h2,
+section>h5 {
   text-align: center;
+  color: var(--color-light);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section>h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+------------------
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: .75rem 1.2rem;
+  border-radius: .4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background: var(--color-primary-variant);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.btn-primary:hover {
+  background: var(--color-primary-variant);
+  color: var(--color-bg);
+}
+
+.text__subtitle-title {
+  border-bottom: var(--color-primary-variant) solid 1px;
+  margin: 0 25%;
+  font-weight: 600;
+  color: #fff;
+}
+
+.text__subtitle {
+  border-bottom: 1px solid rgba(161, 161, 161, 0.3);
+  margin: .5rem 30%;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+----------------
+@media screen and (max-width:600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section>h2 {
+    margin-bottom: 2rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+----------------
+@media screen and (max-width:1024px) {
+  .container {
+    width: var(--container-width-md);
   }
-  to {
-    transform: rotate(360deg);
+
+  section {
+    margin-top: 6rem;
   }
-}
+} */
