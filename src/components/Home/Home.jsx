@@ -15,7 +15,7 @@ const Home = () => {
         <Links />
         <HomeSocial />
         <div>
-          <img src={PicProfile} alt="profile" />
+          <img src={PicProfile} alt="Profile" />
         </div>
         <Link to="/about">
           <BsMouse />
