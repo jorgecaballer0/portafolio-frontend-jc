@@ -1,11 +1,11 @@
-import IMG1 from "../assets/img/Portfolio/work1.jpg";
-import IMG2 from "../assets/img/Portfolio/work2.jpg";
-import IMG3 from "../assets/img/Portfolio/work3.jpg";
-import IMG4 from "../assets/img/Portfolio/work4.jpg";
-import IMG5 from "../assets/img/Portfolio/work5.jpg";
-import IMG6 from "../assets/img/Portfolio/work6.jpg";
-import IMG7 from "../assets/img/Portfolio/work7.jpg";
-import IMG8 from "../assets/img/Portfolio/work8.jpg";
+import IMG1 from "../assets/img/Portafolio/work1.jpg";
+import IMG2 from "../assets/img/Portafolio/work2.jpg";
+import IMG3 from "../assets/img/Portafolio/work3.jpg";
+import IMG4 from "../assets/img/Portafolio/work4.jpg";
+import IMG5 from "../assets/img/Portafolio/work5.jpg";
+import IMG6 from "../assets/img/Portafolio/work6.jpg";
+import IMG7 from "../assets/img/Portafolio/work7.jpg";
+import IMG8 from "../assets/img/Portafolio/work8.jpg";
 
 export const portafolio = [
   {

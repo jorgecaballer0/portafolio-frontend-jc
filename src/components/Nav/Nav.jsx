@@ -20,35 +20,35 @@ const Nav = () => {
         <AiOutlineHome />
       </Link>
       <Link
-        to="/"
+        to="/about"
         onClick={() => setIsActive("/about")}
         className={isActive === "/" ? "active" : ""}
       >
         <AiOutlineUser />
       </Link>
       <Link
-        to="/"
+        to="/skills"
         onClick={() => setIsActive("/skills")}
         className={isActive === "/" ? "active" : ""}
       >
         <BiBook />
       </Link>
       <Link
-        to="/"
+        to="/servicios"
         onClick={() => setIsActive("/servicios")}
         className={isActive === "/" ? "active" : ""}
       >
         <RiServiceLine />
       </Link>
       <Link
-        to="/"
+        to="/portafolio"
         onClick={() => setIsActive("/portafolio")}
         className={isActive === "/" ? "active" : ""}
       >
         <BiBriefcase />
       </Link>
       <Link
-        to="/"
+        to="/contacto"
         onClick={() => setIsActive("/contacto")}
         className={isActive === "/" ? "active" : ""}
       >

@@ -12,7 +12,7 @@
 
 - Desplazamiento suave en cada sección, con animación de ***transiciones***.
 
-## 📚 Tecnologías utilizadas
+## 📚 Tecnologías y herramientas utilizadas
 - React Js
 - Tailwind Css - Libreria de estilos para React Js
 - Framer Motion - Libreria de animaciones para React Js
