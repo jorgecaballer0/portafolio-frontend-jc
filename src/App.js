@@ -9,7 +9,7 @@ import Portafolio from "./components/Portafolio/Portafolio";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Page404 from "./components/Page404/Page404";
+// import Page404 from "./components/Page404/Page404";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       <Portafolio />
       <Testimonials />
       <Contact />
-      <Page404 />
+      {/* <Page404 /> */}
       <Footer />
     </>
   );

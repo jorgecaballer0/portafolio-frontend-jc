@@ -1,5 +1,4 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
@@ -8,34 +7,30 @@ import LOGO from "../../assets/img/Bg-Logo/logo.ico";
 
 const Footer = () => {
   return (
-    <footer className="position:relative bg-primary-mainVariant py-8 text-center text-base my-24">
-      <div className="max-w-xs mx-auto bg-background-bgColor rounded-full ">
-        <a href="#1">
-          <img src={LOGO} alt="Logo" />
+    <footer className="py-6 text-base text-center position:relative bg-primary-mainVariant">
+      <div className="flex justify-center mx-auto mt-4 -mb-4">
+        <a href="#1" className="rounded-full bg-background-bgColor">
+          <img src={LOGO} alt="Logo" className="w-48"/>
         </a>
       </div>
-
-      <ul>
+      <ul className="flex flex-wrap justify-center gap-8 mx-auto mt-8 font-medium hover:[&>li>a]:text-white hover:[&>li>a]:transition-colors">
         <li>
           <a href="#1">
-            <span>About</span>
+            <p>About</p>
           </a>
         </li>
         <li>
           <a href="#1">
-            <span>Portafolio</span>
+            <p>Portafolio</p>
           </a>
         </li>
         <li>
           <a href="#1">
-            <span>Testimonios</span>
+            <p>Testimonios</p>
           </a>
         </li>
       </ul>
-      <div>
-        <a href="https://facebook.com" target="_blank" rel="noreferrer">
-          <FaFacebook />
-        </a>
+      <div className="flex justify-center gap-4 mb-16 mt-6 [&>a]:bg-background-bgColor [&>a]:p-2 [&>a]:rounded-xl hover:[&>a]:bg-background-bgVariant hover:[&>a]:text-white [&>a]:transition-colors">
         <a
           href="https://github.com/jorgecaballero98"
           target="_blank"
@@ -61,8 +56,8 @@ const Footer = () => {
           <IoLogoTwitter />
         </a>
       </div>
-      <div>
-        <small>&copy; Jorge Caballero - Todos los derechos reservados.</small>
+      <div className="mb-4 underline text-background-bgColor">
+        <p>Jorge Caballero</p>
       </div>
     </footer>
   );
