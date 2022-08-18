@@ -10,23 +10,20 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Page404 from "./components/Page404/Page404";
-import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Header />
       <Nav />
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/about" exact element={<About />} />
-        <Route path="/skills" exact element={<Skills />} />
-        <Route path="/servicios" exact element={<Services />} />
-        <Route path="/portafolio" exact element={<Portafolio />} />
-        <Route path="/testimonios" exact element={<Testimonials />} />
-        <Route path="/contacto" exact element={<Contact />} />
-        <Route path="*" element={<Page404 />} />
-      </Routes>
+      <Home />
+      <About />
+      <Skills />
+      <Services />
+      <Portafolio />
+      <Testimonials />
+      <Contact />
+      <Page404 />
       <Footer />
     </>
   );

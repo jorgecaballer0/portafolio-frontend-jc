@@ -18,12 +18,15 @@ html {
   --color-bg: #1f1f38;
   --color-bg-variant: #151c28;
   --color-bg-variant-hover: #232323;
+
   --color-primary: #049395;
   --color-primary-variant: #037f81;
+
   --color-white: #fff;
   --text-color: #bbbec3;
   --text-color-light: #dce0e4;
   --color-light: #ffffff99;
+  
   --transition: all 0.4s ease;
   --container-width-lg: 55%;
   --container-width-md: 85%;

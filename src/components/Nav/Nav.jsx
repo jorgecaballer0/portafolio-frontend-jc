@@ -5,55 +5,54 @@ import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { BiBriefcase } from "react-icons/bi";
-import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [isActive, setIsActive] = useState("/");
 
   return (
     <nav>
-      <Link
-        to="/"
+      <a
+        href="#1"
         onClick={() => setIsActive("/")}
         className={isActive === "/" ? "active" : ""}
       >
         <AiOutlineHome />
-      </Link>
-      <Link
-        to="/about"
+      </a>
+      <a
+        href="#1"
         onClick={() => setIsActive("/about")}
         className={isActive === "/" ? "active" : ""}
       >
         <AiOutlineUser />
-      </Link>
-      <Link
-        to="/skills"
+      </a>
+      <a
+        href="#1"
         onClick={() => setIsActive("/skills")}
         className={isActive === "/" ? "active" : ""}
       >
         <BiBook />
-      </Link>
-      <Link
-        to="/servicios"
+      </a>
+      <a
+        href="#1"
         onClick={() => setIsActive("/servicios")}
         className={isActive === "/" ? "active" : ""}
       >
         <RiServiceLine />
-      </Link>
-      <Link
-        to="/portafolio"
+      </a>
+      <a
+        href="#1"
         onClick={() => setIsActive("/portafolio")}
         className={isActive === "/" ? "active" : ""}
       >
         <BiBriefcase />
-      </Link>
-      <Link
-        to="/contacto"
+      </a>
+      <a
+        href="#1"
         onClick={() => setIsActive("/contacto")}
         className={isActive === "/" ? "active" : ""}
       >
         <BiMessageSquareDetail />
-      </Link>
+      </a>
     </nav>
   );
 };

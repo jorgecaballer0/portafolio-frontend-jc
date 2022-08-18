@@ -2,7 +2,6 @@ import React from "react";
 import Links from "./Links";
 import HomeSocial from "./HomeSocial";
 import PicProfile from "../../assets/img/perfil.png";
-import { Link } from "react-router-dom";
 import { BsMouse } from "react-icons/bs";
 
 const Home = () => {
@@ -17,10 +16,10 @@ const Home = () => {
         <div>
           <img src={PicProfile} alt="Profile" />
         </div>
-        <Link to="/about">
+        <a href="#1">
           <BsMouse />
           <span>Scroll Down</span>
-        </Link>
+        </a>
       </div>
     </>
   );

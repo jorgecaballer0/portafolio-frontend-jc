@@ -3,7 +3,6 @@ import PicProfile from "../../assets/img/about.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -46,9 +45,9 @@ const About = () => {
             tecnología, siempre estoy buscando nuevos desafíos y reforzando mis
             habilidades.
           </p>
-          <Link to="/contacto">
+          <a href="#1">
             <button>Contacto</button>
-          </Link>
+          </a>
         </div>
       </div>
     </section>

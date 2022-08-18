@@ -5,31 +5,31 @@ import { IoLogoTwitter } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import LOGO from "../../assets/img/Bg-Logo/logo.ico";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer>
-      <div>
-        <Link to="/">
+    <footer className="position:relative bg-primary-mainVariant py-8 text-center text-base my-24">
+      <div className="max-w-xs mx-auto bg-background-bgColor rounded-full ">
+        <a href="#1">
           <img src={LOGO} alt="Logo" />
-        </Link>
+        </a>
       </div>
+
       <ul>
         <li>
-          <Link to="/about">
+          <a href="#1">
             <span>About</span>
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/portafolio">
+          <a href="#1">
             <span>Portafolio</span>
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/testimonios">
+          <a href="#1">
             <span>Testimonios</span>
-          </Link>
+          </a>
         </li>
       </ul>
       <div>
