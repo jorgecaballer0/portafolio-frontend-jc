@@ -20,6 +20,3 @@
 - Google Fonts - Libreria de fuentes de Google.
 - React Icons - Libreria de iconos.
 - Swiper Js - Libreria de animaciones - Slider. 
-
-### 🖥️ Licencia
->&copy; Jorge Caballero
