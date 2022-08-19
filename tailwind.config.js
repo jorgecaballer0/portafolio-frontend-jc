@@ -8,6 +8,8 @@ module.exports = {
           bgColor: "#1f1f38",
           bgVariant: "#151c28",
           bgHover: "#232323",
+          bgNav: "#1c2536cc",
+          bgNavHover: "#0000004d",
         },
         primary: {
           main: "#049395",

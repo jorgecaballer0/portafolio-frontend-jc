@@ -31,7 +31,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <div className="flex justify-center gap-4 mb-16 mt-6 [&>a]:bg-background-bgColor [&>a]:p-2 [&>a]:rounded-xl hover:[&>a]:bg-background-bgVariant hover:[&>a]:text-white [&>a]:transition-colors">
+      <div className="flex justify-center gap-4 mb-24 mt-6 [&>a]:bg-background-bgColor [&>a]:p-2 [&>a]:rounded-xl hover:[&>a]:bg-background-bgVariant hover:[&>a]:text-white [&>a]:transition-colors">
         <a
           href="https://github.com/jorgecaballero98"
           target="_blank"
@@ -56,9 +56,6 @@ const Footer = () => {
         <a href="https://twitter.com/Jlc98_" target="_blank" rel="noreferrer">
           <IoLogoTwitter />
         </a>
-      </div>
-      <div className="mb-4 underline text-background-bgColor">
-        <p>Jorge Caballero</p>
       </div>
     </footer>
   );
