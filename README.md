@@ -22,4 +22,4 @@
 - Swiper Js - Libreria de animaciones - Slider. 
 
 ### 🖥️ Licencia
->&copy; Jorge Caballero - Todos los derechos reservados.
+>&copy; Jorge Caballero
