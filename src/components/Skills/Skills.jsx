@@ -11,7 +11,7 @@ import { IoLogoJavascript } from "react-icons/io";
 
 const Skills = () => {
   return (
-    <section>
+    <section id="skills" className="pt-16">
       <h5>Habilidades</h5>
       <h2>Tecnologías</h2>
       <div>

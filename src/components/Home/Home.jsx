@@ -7,7 +7,7 @@ import { BsMouse } from "react-icons/bs";
 const Home = () => {
   return (
     <>
-      <div>
+      <div id="home" className="pt-16">
         <h4>Hola! Mi nombre es</h4>
         <h1>Jorge Caballero</h1>
         <h4>Desarrollador Frontend</h4>

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
@@ -9,23 +10,23 @@ const Footer = () => {
   return (
     <footer className="py-6 text-base text-center position:relative bg-primary-mainVariant">
       <div className="flex justify-center mx-auto mt-4 -mb-4">
-        <a href="#1" className="rounded-full bg-background-bgColor">
-          <img src={LOGO} alt="Logo" className="w-48"/>
+        <a href="#" className="rounded-full bg-background-bgColor">
+          <img src={LOGO} alt="Logo" className="w-48" />
         </a>
       </div>
       <ul className="flex flex-wrap justify-center gap-8 mx-auto mt-8 font-medium hover:[&>li>a]:text-white hover:[&>li>a]:transition-colors">
         <li>
-          <a href="#1">
-            <p>About</p>
+          <a href="#skills">
+            <p>Skills</p>
           </a>
         </li>
         <li>
-          <a href="#1">
+          <a href="#portafolio">
             <p>Portafolio</p>
           </a>
         </li>
         <li>
-          <a href="#1">
+          <a href="#testimonios">
             <p>Testimonios</p>
           </a>
         </li>

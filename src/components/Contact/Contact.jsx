@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section id="contacto" className="pt-16">
       <h5>Datos de contacto</h5>
       <h2>Enviame un mensaje</h2>
       <div>

@@ -3,7 +3,7 @@ import { BiCheck } from "react-icons/bi";
 
 const Services = () => {
   return (
-    <section>
+    <section id="servicios" className="pt-16">
       <h5>Servicios</h5>
       <h2>Que puedo ofrecer...</h2>
       <div>

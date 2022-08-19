@@ -12,44 +12,44 @@ const Nav = () => {
   return (
     <nav>
       <a
-        href="#1"
-        onClick={() => setIsActive("/")}
-        className={isActive === "/" ? "active" : ""}
+        href="#home"
+        onClick={() => setIsActive("#home")}
+        className={isActive === "#home" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>
       <a
-        href="#1"
-        onClick={() => setIsActive("/about")}
-        className={isActive === "/" ? "active" : ""}
+        href="#about"
+        onClick={() => setIsActive("#about")}
+        className={isActive === "#about" ? "active" : ""}
       >
         <AiOutlineUser />
       </a>
       <a
-        href="#1"
-        onClick={() => setIsActive("/skills")}
-        className={isActive === "/" ? "active" : ""}
+        href="#skills"
+        onClick={() => setIsActive("#skills")}
+        className={isActive === "#skills" ? "active" : ""}
       >
         <BiBook />
       </a>
       <a
-        href="#1"
-        onClick={() => setIsActive("/servicios")}
-        className={isActive === "/" ? "active" : ""}
+        href="#servicios"
+        onClick={() => setIsActive("#servicios")}
+        className={isActive === "#servicios" ? "active" : ""}
       >
         <RiServiceLine />
       </a>
       <a
-        href="#1"
-        onClick={() => setIsActive("/portafolio")}
-        className={isActive === "/" ? "active" : ""}
+        href="#portafolio"
+        onClick={() => setIsActive("#portafolio")}
+        className={isActive === "#portafolio" ? "active" : ""}
       >
         <BiBriefcase />
       </a>
       <a
-        href="#1"
-        onClick={() => setIsActive("/contacto")}
-        className={isActive === "/" ? "active" : ""}
+        href="#contacto"
+        onClick={() => setIsActive("#contacto")}
+        className={isActive === "#contacto" ? "active" : ""}
       >
         <BiMessageSquareDetail />
       </a>
