@@ -15,6 +15,11 @@ module.exports = {
           main: "#049395",
           mainVariant: "#037f81",
         },
+        textPrimary: {
+          main: "#bbbec3",
+          mainVariant: "#dce0e4",
+          colorLight: "#ffffff99",
+        },
       },
     },
   },
