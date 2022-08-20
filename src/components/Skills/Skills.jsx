@@ -11,72 +11,63 @@ import { IoLogoJavascript } from "react-icons/io";
 
 const Skills = () => {
   return (
-    <section id="skills" className="pt-16">
-      <h5>Habilidades</h5>
-      <h2>Tecnologías</h2>
-      <div>
-        <div>
-          <h3>Frontend</h3>
-          <div>
+    <section id="skills" className="container mx-auto text-center p-28">
+      <h5 className="my-2 text-sm font-bold text-center border-b border-gray-600  text-textPrimary-colorLight mx-[20%]">
+        Habilidades
+      </h5>
+      <h2 className="text-2xl font-semibold text-center text-primary-main">
+        Tecnologías - Herramientas
+      </h2>
+
+      <div className="grid grid-cols-2 gap-8 pt-16">
+        <div className="px-20 py-10 transition-colors rounded-lg cursor-default bg-background-bgVariant hover:bg-background-bgHover">
+          <h4 className="mb-8 text-xl font-extrabold text-center text-primary-main">
+            Frontend
+          </h4>
+          <div className="grid grid-cols-2 gap-y-8 gap-x-10 [&>article]:flex [&>article]:gap-4 [&>article]:items-center [&>article>svg]:text-2xl">
             <article>
-              <DiHtml5 className="experience__details-icon" />
-              <div>
-                <h4>HTML</h4>
-              </div>
+              <DiHtml5 className="text-orange-600"/>
+              <p>HTML</p>
             </article>
             <article>
-              <DiCss3 />
-              <div>
-                <h4>CSS</h4>
-              </div>
+              <DiCss3 className="text-blue-500"/>
+              <p>CSS</p>
             </article>
             <article>
-              <IoLogoJavascript />
-              <div>
-                <h4>JavaScript</h4>
-              </div>
+              <IoLogoJavascript className="text-yellow-400"/>
+              <p>JavaScript</p>
             </article>
             <article>
-              <DiReact />
-              <div>
-                <h4>React</h4>
-              </div>
+              <DiReact className="text-cyan-400"/>
+              <p>React</p>
             </article>
             <article>
-              <SiBootstrap />
-              <div>
-                <h4>BootStrap</h4>
-              </div>
+              <SiBootstrap className="text-violet-500"/>
+              <p>BootStrap</p>
             </article>
             <article>
-              <SiMaterialui />
-              <div>
-                <h4>Material UI</h4>
-              </div>
+              <SiMaterialui className="text-blue-600"/>
+              <p>Material UI</p>
             </article>
             <article>
-              <SiTailwindcss />
-              <div>
-                <h4>TailWind CSS</h4>
-              </div>
+              <SiTailwindcss className="text-sky-400"/>
+              <p>TailWind CSS</p>
             </article>
           </div>
         </div>
 
-        <div>
-          <h3>Backend</h3>
-          <div>
+        <div className="px-20 py-10 transition-colors rounded-lg cursor-default bg-background-bgVariant hover:bg-background-bgHover">
+          <h4 className="mb-8 text-xl font-extrabold text-center text-primary-main">
+            Backend
+          </h4>
+          <div className="grid grid-cols-2 gap-y-8 gap-x-10 [&>article]:flex [&>article]:gap-4 [&>article]:items-center [&>article>svg]:text-2xl ">
             <article>
-              <SiNodedotjs />
-              <div>
-                <h4>Node Js</h4>
-              </div>
+              <SiNodedotjs className="text-green-300"/>
+              <p>Node Js</p>
             </article>
             <article>
-              <SiFirebase />
-              <div>
-                <h4>Firebase</h4>
-              </div>
+              <SiFirebase className="text-yellow-500"/>
+              <p>Firebase</p>
             </article>
           </div>
         </div>

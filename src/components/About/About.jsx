@@ -5,7 +5,7 @@ import Contact from "./Contact";
 
 const About = () => {
   return (
-    <section id="about" className="container h-screen mx-auto text-center p-28">
+    <section id="about" className="container mx-auto text-center p-28">
       <h5 className="my-2 text-sm font-bold text-center border-b border-gray-600  text-textPrimary-colorLight mx-[20%]">
         Introducción
       </h5>
