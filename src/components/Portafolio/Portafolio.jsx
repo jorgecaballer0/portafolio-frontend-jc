@@ -1,38 +1,16 @@
 import React from "react";
-import { portafolio } from "../../utils/portafolio";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import Projects from "./Projects";
 
 const Portafolio = () => {
   return (
-    <section id="portafolio" className="pt-16">
-      <h5>Portfolio</h5>
-      <h2>Últimos Proyectos</h2>
-
-      <div className="grid grid-cols-3 gap-8">
-        {portafolio.map(({ id, image, title, github, liveDemo }) => {
-          return (
-            <article
-              key={id}
-              className="p-5 transition-all border-transparent bg-background-bgVariant rounded-3xl hover:bg-background-bgHover"
-            >
-              <div className="overflow-hidden rounded-3xl">
-                <img src={image} alt={title} />
-              </div>
-              <h3 className="my-5 text-center text-white">{title}</h3>
-              <div className="flex flex-col items-start gap-4 [&>a]:flex [&>a]:items-center [&>a]:gap-2 hover:[&>a]:translate-x-1 [&>a]:transition-all ">
-                <a href={liveDemo} rel="noreferrer noopener" target="_blank">
-                  Ir al sitio
-                  <AiOutlineArrowRight />
-                </a>
-                <a href={github} rel="noreferrer noopener" target="_blank">
-                  Repositorio
-                  <AiOutlineArrowRight />
-                </a>
-              </div>
-            </article>
-          );
-        })}
-      </div>
+    <section id="portafolio" className="container mx-auto text-center p-28">
+      <h5 className="my-2 text-sm font-bold text-center border-b border-gray-600  text-textPrimary-colorLight mx-[20%]">
+        Portfolio
+      </h5>
+      <h2 className="text-2xl font-semibold text-center text-primary-main">
+        Últimos Proyectos
+      </h2>
+      <Projects />
     </section>
   );
 };
