@@ -26,8 +26,18 @@ body {
   line-height: 1.7;
 }
 
-.swiper-pagination-clickable .swiper-pagination-bullet{
+.swiper-pagination-clickable .swiper-pagination-bullet {
   background: #049395;
+}
+
+/**** HEADER ****/
+
+.header {
+  @apply sticky top-0 left-0 z-[100] w-full bg-background-bgColor;
+}
+
+.header.active {
+  @apply transition-shadow shadow-lg;
 }
 
 /*
