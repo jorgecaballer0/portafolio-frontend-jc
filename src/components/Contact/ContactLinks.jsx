@@ -8,7 +8,7 @@ const ContactLinks = () => {
   return (
     <div className="flex flex-col gap-6 [&>article]:p-5 [&>article]:transition-all [&>article]:rounded-lg [&>article]:bg-background-bgVariant hover:[&>article]:bg-background-bgHover [&>article>h5]:py-1 [&>article>h5]:text-textPrimary-mainVariant [&>article>h5]:font-extrabold">
       <h3 className="w-2/3 text-xl font-extrabold text-center text-textPrimary-mainVariant">
-        Escríbeme por cualquier consulta
+        Escríbeme en mis redes
       </h3>
 
       <article className="flex flex-col w-2/3 items-center justify-center gap-2 my-3 text-sm [&>a]:text-primary-main hover:[&>a]:translate-x-1 [&>a]:transition-all">
@@ -21,7 +21,7 @@ const ContactLinks = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Perfil
+          Ir al Perfil
           <AiOutlineArrowRight />
         </a>
       </article>
@@ -36,7 +36,7 @@ const ContactLinks = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Mensaje
+          Ir al Perfil
           <AiOutlineArrowRight />
         </a>
       </article>
@@ -50,7 +50,7 @@ const ContactLinks = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Mensaje
+          Ir al Perfil
           <AiOutlineArrowRight />
         </a>
       </article>
