@@ -7,10 +7,12 @@ import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
-    <section id="testimonios" className="pt-16">
-      <h5>Opiniones</h5>
-      <h2>Testimonios</h2>
+    <section id="testimonios" className="container mx-auto text-center">
+      <h2 className="text-2xl font-semibold text-center text-primary-main">
+        Opiniones
+      </h2>
       <Swiper
+        className="w-3/5 p-10 mt-10"
         modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}
@@ -18,12 +20,19 @@ const Testimonials = () => {
       >
         {testimonials.map(({ avatar, name, review }, index) => {
           return (
-            <SwiperSlide key={index}>
-              <div>
+            <SwiperSlide
+              key={index}
+              className="p-10 text-center select-none bg-background-bgVariant rounded-2xl"
+            >
+              <div className="w-16 mx-auto mb-4 overflow-hidden border rounded-full aspect-square border-primary-mainVariant">
                 <img src={avatar} alt={name} />
               </div>
-              <h5>{name}</h5>
-              <small>{review}</small>
+              <h5 className="text-lg font-extrabold text-center text-white">
+                {name}
+              </h5>
+              <small className="block w-4/5 mx-auto mt-3 font-light text-textPrimary-colorLight">
+                {review}
+              </small>
             </SwiperSlide>
           );
         })}

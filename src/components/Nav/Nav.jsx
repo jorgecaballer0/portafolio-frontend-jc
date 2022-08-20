@@ -19,11 +19,11 @@ const Nav = () => {
       <a href="#skills">
         <BiBook />
       </a>
-      <a href="#servicios">
-        <RiServiceLine />
-      </a>
       <a href="#portafolio">
         <BiBriefcase />
+      </a>
+      <a href="#servicios">
+        <RiServiceLine />
       </a>
       <a href="#contacto">
         <BiMessageSquareDetail />

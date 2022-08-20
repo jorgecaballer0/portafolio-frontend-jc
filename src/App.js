@@ -6,10 +6,9 @@ import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Services from "./components/Services/Services";
 import Portafolio from "./components/Portafolio/Portafolio";
-import Testimonials from "./components/Testimonials/Testimonials";
+// import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-// import Page404 from "./components/Page404/Page404";
 
 function App() {
   return (
@@ -19,11 +18,10 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Services />
       <Portafolio />
-      <Testimonials />
+      <Services />
+      {/* <Testimonials /> */}
       <Contact />
-      {/* <Page404 /> */}
       <Footer />
     </>
   );

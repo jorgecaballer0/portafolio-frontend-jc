@@ -45,6 +45,9 @@ body {
   line-height: 1.7;
 }
 
+.swiper-pagination-clickable .swiper-pagination-bullet{
+  background: var(--color-primary);
+}
 /*
 .container {
   width: var(--container-width-lg);
