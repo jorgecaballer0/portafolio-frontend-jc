@@ -9,7 +9,7 @@ const Projects = () => {
         return (
           <article
             key={id}
-            className="p-5 transition-all border-transparent bg-background-bgVariant rounded-3xl hover:bg-background-bgHover"
+            className="p-5 transition-all border-transparent bg-background-bgVariant rounded-3xl hover:bg-background-bgHover dark:text-background-bgColor dark:bg-textPrimary-mainVariant dark:hover:bg-textPrimary-main"
           >
             <div className="overflow-hidden rounded-3xl">
               <img src={image} alt={title} />
@@ -17,7 +17,7 @@ const Projects = () => {
             <h3 className="my-5 text-lg font-extrabold text-center white text-">
               {title}
             </h3>
-            <div className="flex flex-col items-start gap-4 [&>a]:flex [&>a]:items-center [&>a]:gap-2 [&>a>svg]:transition-colors   [&>a>svg]:duration-200 [&>a]:text-textPrimary-main hover:[&>a]:text-primary-main [&>a]:transition-transform hover:[&>a]:translate-x-2">
+            <div className="flex flex-col items-start gap-4 [&>a]:flex [&>a]:items-center [&>a]:gap-2 [&>a>svg]:transition-colors [&>a>svg]:duration-200 [&>a]:text-textPrimary-main hover:[&>a]:text-primary-main [&>a]:transition-transform hover:[&>a]:translate-x-2 [&>a]:dark:text-background-bgColor dark:hover:[&>a]:text-primary-main [&>a]dark:transition-transform">
               <a href={liveDemo} rel="noreferrer noopener" target="_blank">
                 Ir al sitio
                 <AiOutlineArrowRight />

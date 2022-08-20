@@ -20,10 +20,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #1f1f38;
+  @apply leading-relaxed transition-colors bg-background-bgColor dark:bg-slate-300 dark:bg-gradient-to-b from-slate-300 to-slate-600 text-textPrimary-main;
   background-image: url(../src/assets/img/Bg-Logo/bg-texture.png);
-  color: #bbbec3;
-  line-height: 1.7;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -33,7 +31,7 @@ body {
 /**** HEADER ****/
 
 .header {
-  @apply sticky top-0 left-0 z-[100] w-full bg-background-bgColor;
+  @apply sticky top-0 left-0 z-[100] w-full bg-background-bgColor dark:bg-slate-300;
 }
 
 .header.active {

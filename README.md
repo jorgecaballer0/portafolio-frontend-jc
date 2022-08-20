@@ -8,6 +8,8 @@
 
 - Diseñado con una interfaz de usuario ***agradable y funcional***.
 
+- ***Dark mode*** para el usuario.
+
 ## 📚 Tecnologías y herramientas utilizadas
 - React Js
 - Tailwind Css - Libreria de estilos para React Js
@@ -16,4 +18,4 @@
 - React Icons - Libreria de iconos.
 - Swiper Js - Libreria de animaciones - Slider. 
 
-- Aún no se implementó el Dark Mode, responsive design y el uso de la libreria de animaciones de Framer Motion.
+- Aún no se implementó el responsive design y el uso de la libreria de animaciones de Framer Motion.

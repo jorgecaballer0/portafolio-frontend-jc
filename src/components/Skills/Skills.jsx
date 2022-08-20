@@ -12,16 +12,16 @@ import { IoLogoJavascript } from "react-icons/io";
 const Skills = () => {
   return (
     <section id="skills" className="container mx-auto text-center p-28">
-      <h5 className="my-2 text-sm font-bold text-center border-b border-gray-600  text-textPrimary-colorLight mx-[20%]">
+      <h5 className="my-2 text-sm font-bold text-center border-b border-gray-600  text-textPrimary-colorLight mx-[20%] dark:text-gray-700">
         Habilidades
       </h5>
-      <h2 className="text-2xl font-semibold text-center text-primary-main">
+      <h2 className="text-2xl font-semibold text-center text-primary-main dark:text-background-bgColor">
         Tecnologías - Herramientas
       </h2>
 
       <div className="grid grid-cols-2 gap-8 pt-16">
-        <div className="px-20 py-10 transition-colors rounded-lg cursor-default bg-background-bgVariant hover:bg-background-bgHover">
-          <h4 className="mb-8 text-xl font-extrabold text-center text-primary-main">
+        <div className="px-20 py-10 font-bold transition-colors rounded-lg cursor-default bg-background-bgVariant hover:bg-background-bgHover dark:bg-textPrimary-mainVariant dark:text-gray-700 dark:hover:bg-textPrimary-main">
+          <h4 className="mb-8 text-xl font-extrabold text-center text-primary-main dark:text-background-bgColor">
             Frontend
           </h4>
           <div className="grid grid-cols-2 gap-y-8 gap-x-10 [&>article]:flex [&>article]:gap-4 [&>article]:items-center [&>article>svg]:text-2xl">
@@ -56,8 +56,8 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="px-20 py-10 transition-colors rounded-lg cursor-default bg-background-bgVariant hover:bg-background-bgHover">
-          <h4 className="mb-8 text-xl font-extrabold text-center text-primary-main">
+        <div className="px-20 py-10 font-bold transition-colors rounded-lg cursor-default bg-background-bgVariant hover:bg-background-bgHover dark:bg-textPrimary-mainVariant dark:text-gray-700 dark:hover:bg-textPrimary-main">
+          <h4 className="mb-8 text-xl font-extrabold text-center text-primary-main dark:text-background-bgColor">
             Backend
           </h4>
           <div className="grid grid-cols-2 gap-y-8 gap-x-10 [&>article]:flex [&>article]:gap-4 [&>article]:items-center [&>article>svg]:text-2xl ">

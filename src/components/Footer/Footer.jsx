@@ -15,13 +15,13 @@ const Footer = () => {
   }
 
   return (
-    <footer className="py-6 text-base text-center position:relative bg-primary-mainVariant">
+    <footer className="py-6 text-base text-center position:relative bg-gradient-to-t from-background-bgColor dark:from-slate-500">
       <div className="flex justify-center mx-auto mt-4 -mb-4">
-        <a href="#" className="rounded-full bg-background-bgColor">
+        <a href="#" className="rounded-full ">
           <img src={LOGO} alt="Logo" className="w-48" />
         </a>
       </div>
-      <ul className="flex flex-wrap justify-center gap-8 mx-auto mt-8 font-medium hover:[&>li>a]:text-white hover:[&>li>a]:transition-colors">
+      <ul className="flex flex-wrap justify-center gap-8 mx-auto mt-8 font-medium hover:[&>li>a]:text-white dark:hover:[&>li>a]:text-primary-main hover:[&>li>a]:transition-colors">
         <li>
           <a href="#portafolio">
             <p>Portafolio</p>
@@ -34,7 +34,7 @@ const Footer = () => {
         </li>
       </ul>
       <article className="flex flex-col items-center justify-center mb-16">
-        <div className="flex justify-center gap-4 my-6 [&>a]:bg-background-bgColor [&>a]:p-2 [&>a]:rounded-xl hover:[&>a]:bg-background-bgVariant hover:[&>a]:text-white [&>a]:transition-colors">
+        <div className="flex justify-center gap-4 my-6 [&>a]:bg-primary-main [&>a]:text-white [&>a]:p-2 [&>a]:rounded-xl hover:[&>a]:bg-background-bgHover hover:[&>a]:text-white [&>a]:transition-colors dark:hover:[&>a]:bg-textPrimary-main dark:hover:[&>a]:text-background-bgHover">
           <a
             href="https://api.whatsapp.com/send?phone=5491122527693&text=Hola! Me gustaría conocer más sobre tu trabajo."
             target="_blank"

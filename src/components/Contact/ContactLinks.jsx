@@ -11,7 +11,7 @@ const ContactLinks = () => {
         Escríbeme en mis redes
       </h3>
 
-      <article className="flex flex-col w-2/3 items-center justify-center gap-2 my-3 text-sm [&>a]:text-primary-main hover:[&>a]:translate-x-1 [&>a]:transition-all">
+      <article className="flex flex-col w-2/3 items-center justify-center gap-2 my-3 text-sm [&>a]:text-primary-main hover:[&>a]:translate-x-1 [&>a]:transition-all dark:bg-textPrimary-mainVariant dark:text-gray-700 dark:hover:bg-textPrimary-main">
         <BsGithub className="text-2xl" />
 
         <h4>Github</h4>
@@ -26,7 +26,7 @@ const ContactLinks = () => {
         </a>
       </article>
 
-      <article className="flex flex-col w-2/3 items-center justify-center gap-2 my-3 text-sm hover:[&>a]:translate-x-1 [&>a]:transition-all [&>a]:text-primary-main ">
+      <article className=" dark:bg-textPrimary-mainVariant dark:text-gray-700 dark:hover:bg-textPrimary-main flex flex-col w-2/3 items-center justify-center gap-2 my-3 text-sm hover:[&>a]:translate-x-1 [&>a]:transition-all [&>a]:text-primary-main ">
         <BsLinkedin className="text-2xl" />
 
         <h4>LinkedIn</h4>
@@ -41,7 +41,7 @@ const ContactLinks = () => {
         </a>
       </article>
 
-      <article className="flex flex-col w-2/3 items-center justify-center gap-2 my-3 text-sm hover:[&>a]:translate-x-1 [&>a]:transition-all [&>a]:text-primary-main ">
+      <article className=" dark:bg-textPrimary-mainVariant dark:text-gray-700 dark:hover:bg-textPrimary-main flex flex-col w-2/3 items-center justify-center gap-2 my-3 text-sm hover:[&>a]:translate-x-1 [&>a]:transition-all [&>a]:text-primary-main ">
         <FiInstagram className="text-2xl" />
         <h4>Instagram</h4>
         <a
