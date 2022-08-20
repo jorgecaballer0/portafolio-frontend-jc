@@ -15,3 +15,5 @@
 - Google Fonts - Libreria de fuentes de Google.
 - React Icons - Libreria de iconos.
 - Swiper Js - Libreria de animaciones - Slider. 
+
+- Aún no se implementó el Dark Mode, responsive design y el uso de la libreria de animaciones de Framer Motion.

@@ -16,18 +16,13 @@ const Footer = () => {
       </div>
       <ul className="flex flex-wrap justify-center gap-8 mx-auto mt-8 font-medium hover:[&>li>a]:text-white hover:[&>li>a]:transition-colors">
         <li>
-          <a href="#skills">
-            <p>Skills</p>
-          </a>
-        </li>
-        <li>
           <a href="#portafolio">
             <p>Portafolio</p>
           </a>
         </li>
         <li>
-          <a href="#testimonios">
-            <p>Testimonios</p>
+          <a href="#about">
+            <p>Sobre mí</p>
           </a>
         </li>
       </ul>
@@ -46,13 +41,7 @@ const Footer = () => {
         >
           <BsLinkedin />
         </a>
-        <a
-          href="https://www.instagram.com/jorge.caballero98"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FiInstagram />
-        </a>
+
         <a href="https://twitter.com/Jlc98_" target="_blank" rel="noreferrer">
           <IoLogoTwitter />
         </a>
