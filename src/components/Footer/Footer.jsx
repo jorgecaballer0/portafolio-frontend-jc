@@ -1,10 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
-import { BsLinkedin } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
 import LOGO from "../../assets/img/Bg-Logo/logo.ico";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -26,20 +24,13 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <div className="flex justify-center gap-4 mb-24 mt-6 [&>a]:bg-background-bgColor [&>a]:p-2 [&>a]:rounded-xl hover:[&>a]:bg-background-bgVariant hover:[&>a]:text-white [&>a]:transition-colors">
+      <div className="flex justify-center gap-4 mb-20 mt-6 [&>a]:bg-background-bgColor [&>a]:p-2 [&>a]:rounded-xl hover:[&>a]:bg-background-bgVariant hover:[&>a]:text-white [&>a]:transition-colors">
         <a
-          href="https://github.com/jorgecaballero98"
+          href="https://api.whatsapp.com/send?phone=5491122527693&text=Hola! Me gustaría conocer más sobre tu trabajo."
           target="_blank"
           rel="noreferrer"
         >
-          <BsGithub />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/jorgecaballero98/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <BsLinkedin />
+          <BsWhatsapp />
         </a>
 
         <a href="https://twitter.com/Jlc98_" target="_blank" rel="noreferrer">

@@ -24,7 +24,7 @@ const Form = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-10">
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-9">
       <h3 className="text-xl font-extrabold text-center text-textPrimary-mainVariant">
         Envíame tu idea para ayudarte!
       </h3>
