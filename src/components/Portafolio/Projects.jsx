@@ -14,7 +14,7 @@ const Projects = () => {
             <div className="overflow-hidden rounded-3xl">
               <img src={image} alt={title} />
             </div>
-            <h3 className="my-5 text-lg font-extrabold text-center text-white">
+            <h3 className="my-5 text-lg font-extrabold text-center text-white dark:text-background-bgColor">
               {title}
             </h3>
             <div className="flex flex-col items-start gap-4 [&>a]:flex [&>a]:items-center [&>a]:gap-2 [&>a>svg]:transition-colors [&>a>svg]:duration-200 [&>a]:text-textPrimary-main hover:[&>a]:text-primary-main [&>a]:transition-transform hover:[&>a]:translate-x-2 [&>a]:dark:text-background-bgColor dark:hover:[&>a]:text-primary-main [&>a]dark:transition-transform">
