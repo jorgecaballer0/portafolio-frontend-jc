@@ -27,7 +27,7 @@ const Skills = () => {
           <h4 className="mb-8 text-xl font-extrabold text-center text-primary-main dark:text-background-bgColor">
             Frontend
           </h4>
-          <div className="grid grid-cols-2 sm:grid-cols-1 sm:gap-y-4 sm:[&>article]:text-sm sm:[&>article>svg]:text-xl gap-y-8 gap-x-10 [&>article]:flex [&>article]:gap-4 [&>article]:items-center [&>article>svg]:text-2xl">
+          <div className="grid grid-cols-2 sm:grid-cols-1 sm:gap-y-4 sm:[&>article]:text-xs sm:[&>article>svg]:text-xl gap-y-8 gap-x-10 [&>article]:flex [&>article]:gap-4 [&>article]:items-center [&>article>svg]:text-2xl">
             <article>
               <DiHtml5 className="text-orange-600" />
               <p>HTML</p>
@@ -63,7 +63,7 @@ const Skills = () => {
           <h4 className="mb-8 text-xl font-extrabold text-center text-primary-main dark:text-background-bgColor">
             Backend
           </h4>
-          <div className="grid grid-cols-2  sm:grid-cols-1 sm:gap-y-4 sm:[&>article]:text-sm sm:[&>article>svg]:text-xl  gap-y-8 gap-x-10 [&>article]:flex [&>article]:gap-4 [&>article]:items-center [&>article>svg]:text-2xl ">
+          <div className="grid grid-cols-2  sm:grid-cols-1 sm:gap-y-4 sm:[&>article]:text-xs sm:[&>article>svg]:text-xl  gap-y-8 gap-x-10 [&>article]:flex [&>article]:gap-4 [&>article]:items-center [&>article>svg]:text-2xl ">
             <article>
               <SiNodedotjs className="text-green-300" />
               <p>Node Js</p>

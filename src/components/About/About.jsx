@@ -17,13 +17,13 @@ const About = () => {
       </h2>
 
       <div className="flex gap-24 pt-20 sm:pt-10 sm:flex-col sm:gap-12">
-        <div className="aspect-square lg:mt-24 rounded-2xl bg-gradient-to-tr from-primary-main max-h-[320px] min-h-[320px] sm:max-h-[290px] sm:min-h-[290px]">
-          <div className="overflow-hidden transition-transform rounded-2xl rotate-12 hover:rotate-0">
+        <div className="aspect-square rounded-2xl bg-gradient-to-tr from-primary-main max-h-[320px] min-h-[320px] sm:bg-none sm:-mb-16">
+          <div className="overflow-hidden transition-transform rotate-12 sm:rotate-0 rounded-2xl hover:rotate-0">
             <img src={PicProfile} alt="profile" />
           </div>
         </div>
 
-        <div className="flex flex-col gap-14 sm:gap-6 lg:gap-10">
+        <div className="flex flex-col gap-14 sm:gap-6">
           <Cards />
           <ul className="text-justify sm:text-center text-textPrimary-mainVariant dark:text-background-bgColor">
             <li>

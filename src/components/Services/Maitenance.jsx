@@ -9,7 +9,7 @@ const Maitenance = () => {
         </h3>
       </div>
 
-      <ul className="p-8 [&>li]:flex [&>li]:gap-4 [&>li]:mb-3 [&>li]:text-center dark:[&>li]:text-background-bgColor lg:[&>li]:text-start">
+      <ul className="p-8 [&>li]:flex  sm:[&>li]:text-sm [&>li]:gap-4 [&>li]:mb-3 [&>li]:text-center dark:[&>li]:text-background-bgColor lg:[&>li]:text-start">
         <li>
           Realizo mantenimiento web a cualquier tipo de sitio web para evitar
           que falle y tener este siempre en óptimas condiciones.

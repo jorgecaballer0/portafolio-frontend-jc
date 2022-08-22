@@ -9,7 +9,7 @@ const Design = () => {
         </h3>
       </div>
 
-      <ul className="p-8 [&>li]:flex [&>li]:gap-4 [&>li]:mb-3 [&>li]:text-center lg:[&>li]:text-start dark:[&>li]:text-background-bgColor">
+      <ul className="p-8 [&>li]:flex sm:[&>li]:text-sm [&>li]:gap-4 [&>li]:mb-3 [&>li]:text-center lg:[&>li]:text-start dark:[&>li]:text-background-bgColor">
         <li>
           Puedo diseñar todo tipo de páginas web, para tu emprendimiento o
           empresa.
