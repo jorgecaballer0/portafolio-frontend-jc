@@ -31,32 +31,9 @@ body {
 /**** HEADER ****/
 
 .header {
-  @apply sticky top-0 left-0 z-[100] w-full bg-background-bgColor dark:bg-slate-300;
+  @apply sticky top-0 left-0 z-[100] w-full lg:bg-blue-600 xl:bg-background-bgColor md:bg-green-600 dark:bg-slate-300;
 }
 
 .header.active {
   @apply transition-shadow shadow-lg;
 }
-
-/*
-----------------
-@media screen and (max-width:600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-
-  section>h2 {
-    margin-bottom: 2rem;
-  }
-}
-
-----------------
-@media screen and (max-width:1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-
-  section {
-    margin-top: 6rem;
-  }
-} */

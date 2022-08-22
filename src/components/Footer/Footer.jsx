@@ -15,10 +15,10 @@ const Footer = () => {
   }
 
   return (
-    <footer className="py-6 text-base text-center position:relative bg-gradient-to-t from-background-bgColor dark:from-slate-500">
-      <div className="flex justify-center mx-auto mt-4 -mb-4">
+    <footer className="relative py-6 text-base text-center sm:py-3 bg-gradient-to-t from-background-bgColor dark:from-slate-500">
+      <div className="flex justify-center mx-auto mt-4 -mb-4 sm:mt-1">
         <a href="#" className="rounded-full ">
-          <img src={LOGO} alt="Logo" className="w-48" />
+          <img src={LOGO} alt="Logo" className="w-48 sm:w-36" />
         </a>
       </div>
       <ul className="flex flex-wrap justify-center gap-8 mx-auto mt-8 font-medium hover:[&>li>a]:text-white dark:hover:[&>li>a]:text-primary-main hover:[&>li>a]:transition-colors">

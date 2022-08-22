@@ -3,7 +3,7 @@ import CV from "../../assets/pdf/jorgecaballero-cv.pdf";
 
 const Links = () => {
   return (
-    <div className="flex justify-center gap-5 mt-8 ">
+    <div className="flex justify-center gap-5 mt-8 sm:mt-4 sm:gap-3">
       <a
         href={CV}
         className="inline-block px-5 py-3 font-bold transition-colors border rounded-lg cursor-pointer border-primary-main w-max text-primary-main bg-background-bgColor hover:bg-primary-main hover:text-background-bgColor hover:border-transparent dark:bg-textPrimary-mainVariant dark:border-background-bgVariant dark:text-background-bgVariant dark:hover:text-white dark:hover:bg-background-bgColor"

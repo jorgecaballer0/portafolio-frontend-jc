@@ -3,16 +3,16 @@ import React from "react";
 const Design = () => {
   return (
     <article>
-      <div className="p-8 shadow-lg bg-primary-main dark:bg-background-bgColor rounded-b-3xl">
+      <div className="p-8 shadow-lg sm:p-4 bg-primary-main dark:bg-background-bgColor rounded-b-3xl">
         <h3 className="font-extrabold text-center text-background-bgColor dark:text-white">
           Diseño Web
         </h3>
       </div>
 
-      <ul className="p-8 [&>li]:flex [&>li]:gap-4 [&>li]:mb-3 [&>li]:text-center dark:[&>li]:text-background-bgColor">
+      <ul className="p-8 [&>li]:flex [&>li]:gap-4 [&>li]:mb-3 [&>li]:text-center lg:[&>li]:text-start dark:[&>li]:text-background-bgColor">
         <li>
           Puedo diseñar todo tipo de páginas web, para tu emprendimiento o
-          empresa. Todo hecho a medida.
+          empresa.
         </li>
         <li>Desarrollo de interfaz de usuario.</li>
         <li>Desarrollo de páginas web.</li>

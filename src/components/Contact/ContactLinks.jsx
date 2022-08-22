@@ -6,8 +6,8 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const ContactLinks = () => {
   return (
-    <div className="flex flex-col gap-6 [&>article]:p-5 [&>article]:transition-all [&>article]:rounded-lg [&>article]:bg-background-bgVariant hover:[&>article]:bg-background-bgHover [&>article>h5]:py-1 [&>article>h5]:text-textPrimary-mainVariant [&>article>h5]:font-extrabold">
-      <h3 className="w-2/3 text-xl font-extrabold text-center text-textPrimary-mainVariant">
+    <div className="flex flex-col gap-6 sm:gap-3 [&>article]:p-5 sm:[&>article]:py-4 [&>article]:transition-all [&>article]:rounded-lg [&>article]:bg-background-bgVariant hover:[&>article]:bg-background-bgHover [&>article>h4]:py-1 [&>article>h4]:text-textPrimary-mainVariant [&>article>h4]:font-extrabold sm:[&>article]:w-auto">
+      <h3 className="w-2/3 font-extrabold text-center text-textPrimary-mainVariant sm:w-auto">
         Escríbeme en mis redes
       </h3>
 

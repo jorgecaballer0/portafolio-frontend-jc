@@ -29,7 +29,7 @@ const Header = () => {
   };
   return (
     <header className={headerShadow ? "header active" : "header"}>
-      <div className="flex items-center justify-between h-16 py-1 px-[20%]">
+      <div className="flex items-center justify-between sm:px-[5%] h-16 py-1 px-[20%]">
         <a href="#">
           <img
             className="transition-colors w-14 dark:border dark:rounded-full dark:bg-background-bgColor"
