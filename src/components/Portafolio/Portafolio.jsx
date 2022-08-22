@@ -3,7 +3,7 @@ import Projects from "./Projects";
 
 const Portafolio = () => {
   return (
-    <section id="portafolio" className="container pt-24 mx-auto text-center px-28 sm:p-[4.5rem]">
+    <section id="portafolio" className="container pt-24 mx-auto text-center px-28 sm:p-[4.5rem] md:p-20">
       <h5 className="my-2 text-sm font-bold text-center border-b border-gray-600  text-textPrimary-colorLight mx-[20%] dark:text-gray-700">
         Portfolio
       </h5>

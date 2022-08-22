@@ -4,12 +4,12 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-3 gap-10 pt-10 sm:grid-cols-1 sm:gap-4">
+    <div className="grid grid-cols-3 gap-10 pt-10 sm:grid-cols-1 md:grid-cols-2 sm:gap-4 md:gap-8">
       {portafolio.map(({ id, image, title, github, liveDemo }) => {
         return (
           <article
             key={id}
-            className="p-5 transition-all border-transparent sm:p-3 bg-background-bgVariant rounded-3xl hover:bg-background-bgHover dark:text-background-bgColor dark:bg-textPrimary-mainVariant dark:hover:bg-textPrimary-main"
+            className="p-5 transition-all border-transparent sm:mx-auto sm:max-w-lg sm:p-3 md:p-3 bg-background-bgVariant rounded-3xl hover:bg-background-bgHover dark:text-background-bgColor dark:bg-textPrimary-mainVariant dark:hover:bg-textPrimary-main"
           >
             <div className="overflow-hidden rounded-3xl">
               <img src={image} alt={title} />

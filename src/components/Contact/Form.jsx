@@ -24,14 +24,14 @@ const Form = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-9 sm:gap-5">
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-9 sm:gap-5 md:gap-7">
       <h3 className="text-xl font-extrabold text-center text-textPrimary-mainVariant">
         Envíame tu idea para ayudarte!
       </h3>
       <div className="relative h-16 mb-8">
         <label
           for=""
-          className="absolute left-0 z-10 p-[0.2rem] text-sm border-2 border-primary-main rounded-lg -top-4 bg-background-bgColor dark:bg-slate-500 dark:text-textPrimary-mainVariant  dark:border-background-bgColor"
+          className="absolute left-0 z-10 p-[0.2rem] md:p-[0.1rem] text-sm md:text-xs border-2 border-primary-main rounded-lg -top-4 bg-background-bgColor dark:bg-slate-500 dark:text-textPrimary-mainVariant  dark:border-background-bgColor"
         >
           Nombre
         </label>
@@ -40,13 +40,13 @@ const Form = () => {
           name="name"
           placeholder="Ingresá tu nombre"
           required
-          className="absolute top-0 left-0 w-full h-full p-4 border-2 rounded-lg outline-none resize-none text-textPrimary-colorLight bg-transparent border-primary-main dark:border-background-bgColor focus:bg-background-bgVariant dark:focus:bg-textPrimary-mainVariant dark:focus:text-background-bgColor transition-colors focus:text-white focus:border-primary-mainVariant focus:outline-none z-[1] "
+          className="md:text-sm absolute top-0 left-0 w-full h-full p-4 border-2 rounded-lg outline-none resize-none text-textPrimary-colorLight bg-transparent border-primary-main dark:border-background-bgColor focus:bg-background-bgVariant dark:focus:bg-textPrimary-mainVariant dark:focus:text-background-bgColor transition-colors focus:text-white focus:border-primary-mainVariant focus:outline-none z-[1] "
         />
       </div>
       <div className="relative h-16 mb-8">
         <label
           for=""
-          className="absolute left-0 z-10 p-[0.2rem] text-sm border-2 border-primary-main rounded-lg -top-4 bg-background-bgColor  dark:bg-slate-500 dark:text-textPrimary-mainVariant dark:border-background-bgColor"
+          className="absolute left-0 z-10 p-[0.2rem] md:p-[0.1rem] text-sm md:text-xs border-2 border-primary-main rounded-lg -top-4 bg-background-bgColor  dark:bg-slate-500 dark:text-textPrimary-mainVariant dark:border-background-bgColor"
         >
           E-mail
         </label>
@@ -55,13 +55,13 @@ const Form = () => {
           name="email"
           placeholder="Ingresá tu e-mail"
           required
-          className="absolute top-0 left-0 w-full h-full p-4 border-2 rounded-lg outline-none resize-none text-textPrimary-colorLight bg-transparent  border-primary-main dark:border-background-bgColor focus:bg-background-bgVariant focus:border-primary-mainVariant focus:outline-none z-[1] focus:text-white dark:focus:bg-textPrimary-mainVariant dark:focus:text-background-bgColor transition-colors"
+          className="md:text-sm  absolute top-0 left-0 w-full h-full p-4 border-2 rounded-lg outline-none resize-none text-textPrimary-colorLight bg-transparent  border-primary-main dark:border-background-bgColor focus:bg-background-bgVariant focus:border-primary-mainVariant focus:outline-none z-[1] focus:text-white dark:focus:bg-textPrimary-mainVariant dark:focus:text-background-bgColor transition-colors"
         />
       </div>
       <div className="relative h-44">
         <label
           for=""
-          className="absolute left-0 z-10 p-[0.2rem] text-sm border-2 border-primary-main rounded-lg -top-4 bg-background-bgColor  dark:bg-slate-500 dark:text-textPrimary-mainVariant  dark:border-background-bgColor"
+          className="absolute left-0 z-10 p-[0.2rem] md:p-[0.1rem] text-sm md:text-xs border-2 border-primary-main rounded-lg -top-4 bg-background-bgColor  dark:bg-slate-500 dark:text-textPrimary-mainVariant  dark:border-background-bgColor"
         >
           Proyecto
         </label>
@@ -71,7 +71,7 @@ const Form = () => {
           rows="10"
           placeholder="Ingresá tu proyecto o idea..."
           required
-          className="absolute top-0 left-0 w-full h-full p-4 border-2 rounded-lg outline-none resize-none text-textPrimary-colorLight bg-transparent  border-primary-main dark:border-background-bgColor focus:bg-background-bgVariant focus:border-primary-mainVariant focus:outline-none z-[1] focus:text-white dark:focus:bg-textPrimary-mainVariant dark:focus:text-background-bgColor transition-colors"
+          className="md:text-sm absolute top-0 left-0 w-full h-full p-4 border-2 rounded-lg outline-none resize-none text-textPrimary-colorLight bg-transparent  border-primary-main dark:border-background-bgColor focus:bg-background-bgVariant focus:border-primary-mainVariant focus:outline-none z-[1] focus:text-white dark:focus:bg-textPrimary-mainVariant dark:focus:text-background-bgColor transition-colors"
         ></textarea>
       </div>
 
