@@ -31,7 +31,7 @@ body {
 /**** HEADER ****/
 
 .header {
-  @apply sticky top-0 left-0 z-[100] w-full lg:bg-blue-600 bg-background-bgColor dark:bg-slate-300;
+  @apply sticky top-0 left-0 z-[100] w-full bg-background-bgColor dark:bg-slate-300;
 }
 
 .header.active {
