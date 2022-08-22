@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="container mx-auto text-center p-28 sm:p-[4.5rem] md:p-20"
+      className="container mx-auto text-center p-24 sm:p-[4.5rem] md:p-20"
     >
       <h5 className="my-2 text-sm font-bold text-center border-b border-gray-600  text-textPrimary-colorLight mx-[20%] dark:text-gray-700">
         Habilidades
@@ -27,7 +27,7 @@ const Skills = () => {
           <h4 className="mb-8 text-xl font-extrabold text-center text-primary-main dark:text-background-bgColor">
             Frontend
           </h4>
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 sm:justify-items-center md:place-items-start md:gap-y-6 sm:gap-y-4 sm:[&>article]:text-xs md:[&>article]:text-base sm:[&>article>svg]:text-xl gap-y-8 gap-x-10 [&>article]:flex [&>article]:gap-4 [&>article]:items-center [&>article>svg]:text-2xl">
+          <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 sm:justify-items-center md:place-items-start md:gap-y-6 sm:gap-y-4 sm:[&>article]:text-xs md:[&>article]:text-base sm:[&>article>svg]:text-xl gap-y-8 gap-x-10 [&>article]:flex [&>article]:gap-4 [&>article]:items-center [&>article>svg]:text-2xl">
             <article>
               <DiHtml5 className="text-orange-600" />
               <p>HTML</p>

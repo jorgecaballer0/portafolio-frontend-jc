@@ -16,10 +16,10 @@ const About = () => {
         Sobre Mí
       </h2>
 
-      <div className="flex gap-24 pt-20 sm:pt-10 sm:flex-col sm:gap-12 md:gap-16 md:flex-col">
-        <div className="aspect-square rounded-2xl bg-gradient-to-tr from-primary-main max-h-[320px] sm:bg-none sm:-mb-16 md:bg-none md:-mb-20">
-          <div className="overflow-hidden transition-transform rotate-12 sm:rotate-0 md:rotate-0 rounded-2xl hover:rotate-0 md:max-h-72">
-            <img src={PicProfile} alt="profile" className="mx-auto sm:max-h-72 md:max-h-72 rounded-2xl"/>
+      <div className="flex pt-20 lg:gap-24 sm:pt-10 sm:flex-col sm:gap-12 md:gap-16 md:flex-col">
+        <div className="aspect-square rounded-2xl bg-gradient-to-tr from-primary-main md:max-h-[320px] sm:max-h-[320px] sm:bg-none sm:-mb-16 md:bg-none md:-mb-20 h-80">
+          <div className="overflow-hidden transition-transform rotate-12 sm:rotate-0 md:rotate-0 rounded-2xl hover:rotate-0">
+            <img src={PicProfile} alt="profile" className="object-contain mx-auto sm:max-h-72 md:max-h-72 rounded-2xl"/>
           </div>
         </div>
 

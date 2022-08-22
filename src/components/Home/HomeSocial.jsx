@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 
 const HomeSocial = () => {
   return (
-    <div className="absolute left-16 md:flex flex-col items-center gap-5 bottom-32 after:w-[2px] after:h-7 after:bg-primary-main dark:after:bg-background-bgColor hover:[&>a]:text-white [&>a]:transition-colors [&>a]:text-lg sm:hidden">
+    <div className="absolute left-16 flex flex-col items-center gap-5 bottom-32 after:w-[2px] after:h-7 after:bg-primary-main dark:after:bg-background-bgColor hover:[&>a]:text-white [&>a]:transition-colors [&>a]:text-lg sm:hidden">
       <a
         href="https://www.linkedin.com/in/jorgecaballero98/"
         target="_blank"

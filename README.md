@@ -16,6 +16,6 @@
 - Framer Motion - Libreria de animaciones para React Js
 - Google Fonts - Libreria de fuentes de Google.
 - React Icons - Libreria de iconos.
-- Swiper Js - Libreria de animaciones - Slider. 
+- Swiper Js - Libreria de animaciones - Slider. **(No implementado aún)**
 
-- Aún no se implementó el responsive design y el uso de la libreria de animaciones de Framer Motion.
+- Aún no se implementó el uso de la libreria de animaciones de Framer Motion.

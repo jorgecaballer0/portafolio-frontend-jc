@@ -7,7 +7,7 @@ import ScrollDown from "./ScrollDown";
 const Home = () => {
   return (
     <>
-      <section id="home" className="h-screen pt-12 overflow-hidden sm:pt-10">
+      <section id="home" className="h-screen overflow-hidden lg:pt-12 sm:pt-10 md:pt-11">
         <div className="container relative h-full mx-auto text-center">
           <h4 className="text-lg font-semibold text-textPrimary-main dark:text-gray-600">Hola! Mi nombre es</h4>
           <h1 className="py-3 text-4xl font-semibold text-white border-b border-primary-main dark:border-primary-mainVariant mx-[30%] dark:text-background-bgColor">
