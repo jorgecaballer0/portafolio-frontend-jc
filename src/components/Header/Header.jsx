@@ -31,6 +31,9 @@ const Header = () => {
     <header className={headerShadow ? "header active" : "header"}>
       <div className="flex items-center justify-between sm:px-[5%] h-16 py-1 px-[20%]">
         <a href="#">
+          {/* {
+            headerShadow ? <img alt="ACA VA EL LOGO"/> : ""
+          } */}
           <img
             className="transition-colors w-14 dark:border dark:rounded-full dark:bg-background-bgColor"
             src={Logo}
