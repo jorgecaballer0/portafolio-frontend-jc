@@ -9,7 +9,7 @@ const Header = () => {
   const [theme, setTheme] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 60) {
+    if (window.scrollY >= 800) {
       setHeaderShadow(true);
     } else {
       setHeaderShadow(false);
