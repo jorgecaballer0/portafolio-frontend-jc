@@ -6,28 +6,71 @@ import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { BiBriefcase } from "react-icons/bi";
+import { Link } from "react-scroll";
 
 const Nav = () => {
   return (
-    <nav className="sm:mx-auto sm:py-2 sm:rounded-lg sm:px-4 fixed z-50 flex gap-3 px-8 py-3 -translate-x-1/2 bottom-4 bg-background-bgNav dark:bg-textPrimary-mainVariant w-max rounded-full left-1/2 backdrop-blur [&>a]:bg-transparent [&>a]:p-3 [&>a]:rounded-lg text-white dark:text-background-bgColor text-xl hover:[&>a]:bg-gradient-to-b from-primary-main hover:[&>a]:rounded-full [&>a]:transition-colors hover:[&>a>*]:text-textPrimary-colorLight dark:hover:[&>a>*]:text-white [&>a>*]:transition-colors active:[&>a>*]:text-primary-main">
-      <a href="#">
+    <nav className="sm:mx-auto sm:py-2 sm:rounded-lg sm:px-4 fixed z-50 flex gap-3 px-8 py-3 -translate-x-1/2 bottom-4 bg-background-bgNav dark:bg-textPrimary-mainVariant w-max rounded-full left-1/2 backdrop-blur [&>a]:bg-transparent [&>a]:p-3 [&>a]:rounded-lg text-white dark:text-background-bgColor text-xl hover:[&>a]:bg-gradient-to-b from-primary-main hover:[&>a]:rounded-full [&>a]:transition-colors hover:[&>a>*]:text-textPrimary-colorLight dark:hover:[&>a>*]:text-white [&>a>*]:transition-colors active:[&>a>*]:text-primary-main scale">
+      <Link
+        activeClass="text-primary-mainVariant scale-125  transition-all"
+        to="home"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={300}
+      >
         <AiOutlineHome />
-      </a>
-      <a href="#about">
+      </Link>
+      <Link
+        activeClass="text-primary-mainVariant scale-125  transition-all"
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={300}
+      >
         <AiOutlineUser />
-      </a>
-      <a href="#skills">
+      </Link>
+      <Link
+        activeClass="text-primary-mainVariant scale-125  transition-all"
+        to="skills"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={300}
+      >
         <BiBook />
-      </a>
-      <a href="#portafolio">
+      </Link>
+      <Link
+        activeClass="text-primary-mainVariant scale-125  transition-all"
+        to="portafolio"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={300}
+      >
         <BiBriefcase />
-      </a>
-      <a href="#servicios">
+      </Link>
+      <Link
+        activeClass="text-primary-mainVariant scale-125  transition-all"
+        to="servicios"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={300}
+      >
         <RiServiceLine />
-      </a>
-      <a href="#contacto">
+      </Link>
+      <Link
+        activeClass="text-primary-mainVariant scale-125  transition-all"
+        to="contacto"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={300}
+      >
         <BiMessageSquareDetail />
-      </a>
+      </Link>
     </nav>
   );
 };

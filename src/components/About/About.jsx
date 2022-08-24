@@ -26,11 +26,7 @@ const About = () => {
         <div className="flex flex-col gap-14 sm:gap-6">
           <Cards />
           <ul className="text-justify sm:text-center md:text-center text-textPrimary-mainVariant dark:text-background-bgColor">
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure qui tempore enim iste nesciunt, minima velit ipsum iusto omnis pariatur. Aperiam similique ea blanditiis iure, nesciunt quis ipsam neque. Quos.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure qui tempore enim iste nesciunt, minima velit ipsum iusto omnis pariatur. Aperiam similique ea blanditiis iure, nesciunt quis ipsam neque. Quos.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure qui tempore enim iste nesciunt, minima velit ipsum iusto omnis pariatur. Aperiam similique ea blanditiis iure, nesciunt quis ipsam neque. Quos.</li>
-            
-            {/* <li>
+            <li>
               Tengo 23 años, vivo en Argentina y actualmente me especializo como
               <span className="font-bold"> desarrollador Frontend</span>.
             </li>
@@ -39,11 +35,6 @@ const About = () => {
               pero sigo aprendiendo más en otras plataformas, actualmente me
               encuentro en búsqueda de mi primer trabajo IT.
             </li>
-            <li>
-              Soy una persona autodidacta, apasionada por el desarrollo web y la
-              tecnología, siempre estoy buscando nuevos desafíos y reforzando
-              mis habilidades.
-            </li> */}
           </ul>
           <Contact />
         </div>

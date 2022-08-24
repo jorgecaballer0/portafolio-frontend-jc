@@ -1,5 +1,6 @@
 import React from "react";
 import CV from "../../assets/pdf/jorgecaballero-cv.pdf";
+import { Link } from "react-scroll";
 
 const Links = () => {
   return (
@@ -10,12 +11,15 @@ const Links = () => {
       >
         Descargar CV
       </a>
-      <a
-        href="#contacto"
+      <Link
+        to="contacto"
+        spy={true}
+        smooth={true}
+        duration={300}
         className="inline-block px-5 py-4 text-base font-bold transition-colors rounded-lg cursor-pointer text-background-bgColor w-max hover:text-white hover:bg-primary-main bg-primary-mainVariant hover:border-transparent dark:text-textPrimary-mainVariant dark:bg-primary-main dark:hover:bg-primary-mainVariant dark:hover:text-white"
       >
         Contactame
-      </a>
+      </Link>
     </div>
   );
 };
