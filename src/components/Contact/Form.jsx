@@ -1,36 +1,45 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Form = () => {
+  const [text, setText] = useState(false);
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_e45q5u3",
-        "template_2zmf5d9",
+        process.env.REACT_APP_SERVICES_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         form.current,
-        "XjKoiwc8zx7kn_fN0"
+        process.env.REACT_APP_PUBLIC_KEY
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
+      .then((result) => {
+        if (result.status === 200) {
+          setText(true);
+          setTimeout(() => {
+            setText(false);
+          }, 3000);
         }
-      );
+        console.log(result.text);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
     e.target.reset();
   };
-
   return (
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-9 sm:gap-5 md:gap-7">
+    <form
+      ref={form}
+      onSubmit={sendEmail}
+      className="flex flex-col gap-9 sm:gap-5 md:gap-7"
+    >
       <h3 className="text-xl font-extrabold text-center text-textPrimary-mainVariant">
         Envíame tu idea para ayudarte!
       </h3>
       <div className="relative h-16 mb-8">
         <label
-          for=""
+          htmlFor=""
           className="absolute left-0 z-10 p-[0.2rem] md:p-[0.1rem] text-sm md:text-xs border-2 border-primary-main rounded-lg -top-4 bg-background-bgColor dark:bg-slate-500 dark:text-textPrimary-mainVariant  dark:border-background-bgColor"
         >
           Nombre
@@ -45,7 +54,7 @@ const Form = () => {
       </div>
       <div className="relative h-16 mb-8">
         <label
-          for=""
+          htmlFor=""
           className="absolute left-0 z-10 p-[0.2rem] md:p-[0.1rem] text-sm md:text-xs border-2 border-primary-main rounded-lg -top-4 bg-background-bgColor  dark:bg-slate-500 dark:text-textPrimary-mainVariant dark:border-background-bgColor"
         >
           E-mail
@@ -60,7 +69,7 @@ const Form = () => {
       </div>
       <div className="relative h-44">
         <label
-          for=""
+          htmlFor=""
           className="absolute left-0 z-10 p-[0.2rem] md:p-[0.1rem] text-sm md:text-xs border-2 border-primary-main rounded-lg -top-4 bg-background-bgColor  dark:bg-slate-500 dark:text-textPrimary-mainVariant  dark:border-background-bgColor"
         >
           Proyecto
@@ -74,7 +83,14 @@ const Form = () => {
           className="md:text-sm absolute top-0 left-0 w-full h-full p-4 border-2 rounded-lg outline-none resize-none text-textPrimary-colorLight bg-transparent  border-primary-main dark:border-background-bgColor focus:bg-background-bgVariant focus:border-primary-mainVariant focus:outline-none z-[1] focus:text-white dark:focus:bg-textPrimary-mainVariant dark:focus:text-background-bgColor transition-colors"
         ></textarea>
       </div>
-
+      {text && (
+        <div>
+          <p className="text-sm text-emerald-400">
+            ¡Tu mensaje fue enviado correctamente! Te estaré contestando a la
+            brevedad.
+          </p>
+        </div>
+      )}
       <button
         type="submit"
         className="flex items-center justify-center p-5 mx-auto text-sm font-bold transition-colors rounded-lg cursor-pointer text-background-bgColor w-max hover:text-white hover:bg-primary-main bg-primary-mainVariant hover:border-transparent dark:text-textPrimary-mainVariant dark:bg-primary-main dark:hover:bg-primary-mainVariant dark:hover:text-white"

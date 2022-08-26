@@ -27,13 +27,13 @@ const About = () => {
           <Cards />
           <ul className="text-justify sm:text-center md:text-center text-textPrimary-mainVariant dark:text-background-bgColor">
             <li>
-              Tengo 23 años, vivo en Argentina y actualmente me especializo como
+              Tengo 23 años, vivo en Argentina y me especializo como
               <span className="font-bold"> desarrollador Frontend</span>.
             </li>
             <li>
-              Realicé cursos en <span className="font-bold"> Coderhouse</span>{" "}
-              pero sigo aprendiendo más en otras plataformas, actualmente me
-              encuentro en búsqueda de mi primer trabajo IT.
+              Realicé diferentes cursos en <span className="font-bold"> Coderhouse </span> 
+              y actualmente sigo aprendiendo más en otras plataformas, me
+              encuentro en búsqueda activa de mi primer empleo IT.
             </li>
           </ul>
           <Contact />

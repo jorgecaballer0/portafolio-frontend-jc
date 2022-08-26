@@ -32,6 +32,7 @@ const Header = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
+  
   return (
     <header className={headerShadow ? "header active" : "header"}>
       <div className="flex items-center justify-between sm:px-[5%] h-16 py-1 px-[20%]">
