@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 
 const Form = () => {
   const [text, setText] = useState(false);
-
+  const [textError, setTextError] = useState(false);
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -24,6 +24,10 @@ const Form = () => {
         console.log(result.text);
       })
       .catch((error) => {
+        setTextError(true);
+        setTimeout(() => {
+          setText(false);
+        }, 3000);
         console.log(error);
       });
     e.target.reset();
@@ -83,14 +87,15 @@ const Form = () => {
           className="md:text-sm absolute top-0 left-0 w-full h-full p-4 border-2 rounded-lg outline-none resize-none text-textPrimary-colorLight bg-transparent  border-primary-main dark:border-background-bgColor focus:bg-background-bgVariant focus:border-primary-mainVariant focus:outline-none z-[1] focus:text-white dark:focus:bg-textPrimary-mainVariant dark:focus:text-background-bgColor transition-colors"
         ></textarea>
       </div>
-      {text ? (
+      {text && (
         <div>
           <p className="text-sm text-emerald-400">
             ¡Tu mensaje fue enviado correctamente! Te estaré contestando a la
             brevedad.
           </p>
         </div>
-      ) : (
+      )}
+      {textError && (
         <div>
           <p className="text-sm text-emerald-400">
             Hubo un error en el envío, intentalo más tarde...
