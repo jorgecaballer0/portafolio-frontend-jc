@@ -12,7 +12,7 @@ const Form = () => {
         process.env.REACT_APP_SERVICES_ID,
         process.env.REACT_APP_TEMPLATE_ID,
         form.current,
-        process.env.PUBLIC_KEY
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then((result) => {
         if (result.status === 200) {
