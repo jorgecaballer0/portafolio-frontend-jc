@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { services, template, key } from "../../utils/keys";
+import { services, template, publicKey } from "../../utils/keys";
 
 const Form = () => {
   const [text, setText] = useState(false);
@@ -9,7 +9,7 @@ const Form = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm(services, template, form.current, key)
+      .sendForm(services, template, form.current, publicKey)
       .then((result) => {
         if (result.status === 200) {
           setText(true);
