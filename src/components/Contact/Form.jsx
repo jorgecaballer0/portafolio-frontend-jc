@@ -26,7 +26,7 @@ const Form = () => {
       .catch((error) => {
         setTextError(true);
         setTimeout(() => {
-          setText(false);
+          setTextError(false);
         }, 3000);
         console.log(error);
       });
