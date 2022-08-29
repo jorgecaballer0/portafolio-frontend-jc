@@ -1,5 +1,5 @@
 import IMG1 from "../assets/img/Portafolio/work1.jpg";
-// import IMG2 from "../assets/img/Portafolio/work2.jpg";
+import IMG2 from "../assets/img/Portafolio/work2.png";
 import IMG3 from "../assets/img/Portafolio/work3.jpg";
 import IMG4 from "../assets/img/Portafolio/work4.jpg";
 import IMG5 from "../assets/img/Portafolio/work5.jpg";
@@ -15,13 +15,13 @@ export const portafolio = [
     liveDemo: "https://jorgecaballer0.github.io/BitcoInFoTF/",
     github: "https://github.com/jorgecaballer0/BitcoInFoTF",
   },
-  // {
-  //   id: 2,
-  //   title: "Lista de películas",
-  //   image: IMG2,
-  //   liveDemo: "https://mis-peliculas-react.vercel.app/",
-  //   github: "https://github.com/jorgecaballer0/mis-peliculas-react",
-  // },
+  {
+    id: 2,
+    title: "Manifiesto Web",
+    image: IMG2,
+    liveDemo: "https://manifiesto-web.vercel.app/",
+    github: "https://github.com/jorgecaballer0/manifiesto-web",
+  },
   {
     id: 3,
     title: "J|C Store",

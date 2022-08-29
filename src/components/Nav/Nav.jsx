@@ -10,7 +10,7 @@ import { Link } from "react-scroll";
 
 const Nav = () => {
   return (
-    <nav className="sm:mx-auto sm:py-2 sm:rounded-lg sm:px-4 fixed z-50 flex gap-3 px-8 py-3 -translate-x-1/2 bottom-4 bg-background-bgNav dark:bg-textPrimary-mainVariant w-max rounded-full left-1/2 backdrop-blur [&>a]:bg-transparent [&>a]:p-3 [&>a]:rounded-lg text-white dark:text-background-bgColor text-xl hover:[&>a]:bg-gradient-to-b from-primary-main hover:[&>a]:rounded-full [&>a]:transition-colors hover:[&>a>*]:text-textPrimary-colorLight dark:hover:[&>a>*]:text-white [&>a>*]:transition-colors hover:[&>a]:cursor-pointer">
+    <nav className="sm:mx-auto sm:py-2 sm:rounded-lg sm:px-4 fixed z-50 flex gap-3 px-8 py-3 -translate-x-1/2 bottom-4 bg-background-bgNav dark:bg-textPrimary-mainVariant w-max rounded-full left-1/2 backdrop-blur [&>a]:bg-transparent [&>a]:p-3 [&>a]:rounded-lg text-white dark:text-background-bgColor text-xl [&>a]:transition-colors hover:[&>a>*]:text-textPrimary-colorLight dark:hover:[&>a>*]:text-white [&>a>*]:transition-colors hover:[&>a]:cursor-pointer">
       <Link
         activeClass="text-primary-mainVariant scale-125 transition-all"
         to="home"
