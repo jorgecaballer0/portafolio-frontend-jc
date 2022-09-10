@@ -1,11 +1,11 @@
 import IMG1 from "../assets/img/Portafolio/work1.jpg";
 import IMG2 from "../assets/img/Portafolio/work2.png";
 import IMG3 from "../assets/img/Portafolio/work3.jpg";
-import IMG4 from "../assets/img/Portafolio/work4.jpg";
+import IMG8 from "../assets/img/Portafolio/work4.jpg";
 import IMG5 from "../assets/img/Portafolio/work5.jpg";
 import IMG6 from "../assets/img/Portafolio/work6.jpg";
 import IMG7 from "../assets/img/Portafolio/work7.jpg";
-// import IMG8 from "../assets/img/Portafolio/work8.jpg";
+import IMG4 from "../assets/img/Portafolio/work8.png";
 
 export const portafolio = [
   {
@@ -31,10 +31,10 @@ export const portafolio = [
   },
   {
     id: 4,
-    title: "Halo Website",
+    title: "Weather APP",
     image: IMG4,
-    liveDemo: "https://demo-halo-website.vercel.app/",
-    github: "https://github.com/jorgecaballer0/demo-halo-website",
+    liveDemo: "https://react-app-weather-jc.vercel.app/",
+    github: "https://github.com/jorgecaballer0/weather-app-react-1",
   },
   {
     id: 5,
@@ -57,11 +57,11 @@ export const portafolio = [
     liveDemo: "https://rick-and-morty-api-lilac.vercel.app/",
     github: "https://github.com/jorgecaballer0/Rick-and-Morty-API",
   },
-  // {
-  //   id: 8,
-  //   title: "API de Marvel Comics",
-  //   image: IMG8,
-  //   liveDemo: "https://react-marvel-api-demo.vercel.app/",
-  //   github: "https://github.com/jorgecaballer0/react-marvel-api",
-  // },
+  {
+    id: 8,
+    title: "Halo Website",
+    image: IMG8,
+    liveDemo: "https://demo-halo-website.vercel.app/",
+    github: "https://github.com/jorgecaballer0/demo-halo-website",
+  },
 ];
