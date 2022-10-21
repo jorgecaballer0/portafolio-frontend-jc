@@ -17,7 +17,7 @@ const ContactLinks = () => {
         <h4>Github</h4>
         <a
           className="flex items-center gap-2"
-          href="https://github.com/jorgecaballero98"
+          href="https://github.com/jorgecaballer0"
           target="_blank"
           rel="noopener noreferrer"
         >

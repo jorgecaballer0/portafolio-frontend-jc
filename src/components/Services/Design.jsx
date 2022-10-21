@@ -5,7 +5,7 @@ const Design = () => {
     <article>
       <div className="p-8 shadow-lg sm:p-4 md:p-6 bg-primary-main dark:bg-background-bgColor rounded-b-3xl">
         <h3 className="font-extrabold text-center text-background-bgColor dark:text-white">
-          Diseño Web
+          Diseño 
         </h3>
       </div>
 

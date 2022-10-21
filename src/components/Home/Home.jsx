@@ -1,7 +1,7 @@
 import React from "react";
 import Links from "./Links";
 import HomeSocial from "./HomeSocial";
-import PicProfile from "../../assets/img/perfil.png";
+import PicProfile from "../../assets/img/profile-pic-cv-bg.png";
 import ScrollDown from "./ScrollDown";
 
 const Home = () => {

@@ -7,6 +7,7 @@ import {
   SiTailwindcss,
   SiFirebase,
 } from "react-icons/si";
+import {AiOutlineConsoleSql} from "react-icons/ai"
 import { IoLogoJavascript } from "react-icons/io";
 
 const Skills = () => {
@@ -71,6 +72,10 @@ const Skills = () => {
             <article>
               <SiFirebase className="text-yellow-500" />
               <p>Firebase</p>
+            </article>
+            <article>
+              <AiOutlineConsoleSql className="text-sky-500" />
+              <p>SQL</p>
             </article>
           </div>
         </div>

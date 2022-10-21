@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/pdf/jorgecaballero-cv.pdf";
+import CV from "../../assets/pdf/jorge-caballero-cv.pdf";
 import { Link } from "react-scroll";
 
 const Links = () => {

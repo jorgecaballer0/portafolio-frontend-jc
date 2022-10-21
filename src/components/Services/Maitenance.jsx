@@ -5,7 +5,7 @@ const Maitenance = () => {
     <article>
       <div className="p-8 shadow-lg sm:p-4 md:py-6 bg-primary-main dark:bg-background-bgColor rounded-b-3xl">
         <h3 className="font-extrabold text-center text-background-bgColor dark:text-white">
-          Mantenimiento Web
+          Mantenimiento 
         </h3>
       </div>
 
