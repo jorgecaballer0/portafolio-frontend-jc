@@ -3,7 +3,6 @@ import React from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { BiBriefcase } from "react-icons/bi";
 import { Link } from "react-scroll";
@@ -47,15 +46,6 @@ const Nav = () => {
         duration={300}
       >
         <BiBriefcase />
-      </Link>
-      <Link
-        activeClass="text-primary-mainVariant scale-125 transition-all"
-        to="servicios"
-        spy={true}
-        smooth={true}
-        duration={300}
-      >
-        <RiServiceLine />
       </Link>
       <Link
         activeClass="text-primary-mainVariant scale-125 transition-all"
