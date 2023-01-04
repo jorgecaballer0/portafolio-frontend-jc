@@ -7,8 +7,9 @@ import {
   SiTailwindcss,
   SiFirebase,
 } from "react-icons/si";
-import {AiOutlineConsoleSql} from "react-icons/ai"
+import { AiOutlineConsoleSql } from "react-icons/ai";
 import { IoLogoJavascript } from "react-icons/io";
+import { FaGitAlt } from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -56,6 +57,10 @@ const Skills = () => {
             <article>
               <SiTailwindcss className="text-sky-400" />
               <p>TailWind CSS</p>
+            </article>
+            <article>
+              <FaGitAlt className="text-red-500" />
+              <p>Git</p>
             </article>
           </div>
         </div>

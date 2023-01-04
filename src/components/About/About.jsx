@@ -27,7 +27,7 @@ const About = () => {
           <Cards />
           <ul className="text-justify sm:text-center md:text-center text-textPrimary-mainVariant dark:text-background-bgColor">
             <li>
-              Tengo 23 años, vivo en Argentina y me especializo como
+              Tengo 24 años, vivo en Argentina y me especializo como
               <span className="font-bold"> desarrollador Frontend</span>.
             </li>
             <li>
